@@ -1,20 +1,17 @@
 <div class="container-big-card">
     <div class="big-card-pic">
-        <img 
-            src="https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/1275957/retina_1708x683_cover-top-18-most-common-angularjs-developer-mistakes-41f9ad303a51db70e4a5204e101e7414.png" 
-            alt=""
-        >
+        <img src="{{ photoCover }}" alt="">
     </div>
 
     <div class="big-card-title">
         <h1>
-            <a href="#">Saiu nova versão do Angular</a>
+            <a [routerLink]="['content', Id]">{{ cardTitle }}</a>
         </h1>
     </div>
 
     <div class="big-card-description">
-        <a href="#">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt at dolores molestias recusandae facere voluptas reprehenderit dolor rem, maxime, unde sequi? Magni, in? Deserunt est quas autem debitis consequatur provident! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat debitis aspernatur, neque magnam explicabo iusto iure fuga quam itaque numquam quia tenetur nulla nihil nostrum. Rem quis beatae doloribus minus.</p>
+        <a [routerLink]="['content', Id]">
+            <p>{{ cardDescription }}</p>
         </a>
     </div>
 </div>

@@ -8,6 +8,7 @@
     width: 100%;
     min-width: 400px;
     height: 250px;
+    object-fit: cover;
 }
 
 .big-card-title > h1 {
